@@ -1,0 +1,14 @@
+name: ItaliaFactions
+version: 1.0.0
+main: it.italiafactions.ItaliaFactions
+api-version: 1.21
+description: Plugin Fazioni italiano
+authors: [ItaliaFactions]
+commands:
+  f:
+    description: Comando principale fazioni
+    usage: /f <sottocomando>
+permissions:
+  italiafactions.admin:
+    description: Permessi admin fazioni
+    default: op
